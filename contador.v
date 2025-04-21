@@ -11,7 +11,7 @@ module Contador (
     // Insira seu código aqui
     always @(posedge clk or negedge rst_n) begin
       if(rst_n === 0) begin
-        saida = 16'h6A;
+        saida = 8'h6A;
       end
       else begin
         if(acrescer !== decrecer) begin
